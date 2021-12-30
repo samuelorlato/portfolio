@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <title>Samuel Orlato | Contact</title>
+</head>
+<body class="flex justify-center bg-gray">
+    <div class="flex flex-col tablet:w-4/6 w-5/6 flex animate__animated animate__fadeInLeft select-none">
+        <div class="absolute mt-10">
+            <a href="./" class="text-white font-title transition-all cursor-pointer hover:text-red">back</a>
+        </div>
+        <div class="flex h-screen items-center font-title tablet:text-8xl text-6xl leading-tight">
+            <h1 class="text-white">Let's <span class="text-red">connect</span></h1>
+        </div>
+        <div class="mb-10">
+            <h2 class="font-title text-white tablet:text-4xl text-3xl mb-5">Ways</h2>
+            <div class="grid gap-4 lg:grid-cols-4 font-subtitle">
+                <div class="px-4 py-4 bg-lightGray transition-all hover:translate-y-0.5 cursor-pointer" id="github">
+                    <h3 class="tablet:text-2xl text-xl text-center text-white">Github</h3>
+                    <p class="text-center text-white"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></p>
+                </div>
+                <div class="px-4 py-4 bg-lightBlue transition-all hover:translate-y-0.5 cursor-pointer" id="email">
+                    <h3 class="tablet:text-2xl text-xl text-center text-white">Email</h3>
+                    <p class="text-center text-white"><box-icon name='mail-send' color='#ffffff' ></box-icon></p>
+                </div>
+                <div class="px-4 py-4 bg-red transition-all hover:translate-y-0.5 cursor-pointer" id="youtube">
+                    <h3 class="tablet:text-2xl text-xl text-center text-white">YouTube</h3>
+                    <p class="text-center text-white"><box-icon name='youtube' type='logo' color='#ffffff' ></box-icon></p>
+                </div>
+                <div class="px-4 py-4 bg-blue transition-all hover:translate-y-0.5 cursor-pointer" id="discord">
+                    <h3 class="tablet:text-2xl text-xl text-center text-white">Discord</h3>
+                    <p class="text-center text-white"><box-icon name='discord-alt' type='logo' color='#ffffff' ></box-icon></p>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
